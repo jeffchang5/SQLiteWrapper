@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(RSQLite)\nsqlreader <- function(file) {\n  con <- dbConnect(SQLite(), file)\n}\nsqlreader(\"data.db\")\n",
+    "created" : 1464793953957.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "581841273",
+    "id" : "1F1AAC62",
+    "lastKnownWriteTime" : 1464858383,
+    "last_content_update" : 1464858383092,
+    "path" : "~/git/sqlitereader/SQLiteWrapper/R/SQLReader.R",
+    "project_path" : "R/SQLReader.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
